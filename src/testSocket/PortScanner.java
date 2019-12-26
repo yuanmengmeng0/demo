@@ -15,6 +15,7 @@ public class PortScanner {
         String host="localhost";
         if(args.length > 0){
             host=args[0];
+            System.out.println("啊啊啊啊啊啊啊啊啊啊啊");
         }
         new PortScanner().scan(host);
     }
