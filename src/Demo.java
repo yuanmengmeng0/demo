@@ -4,6 +4,6 @@ public class Demo {
     }
 
     static {
-        System.out.println("静态代码块");
+        System.out.println("静态代码块啊");
     }
 }
