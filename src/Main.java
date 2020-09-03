@@ -7,7 +7,7 @@ public class Main {
 
 
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, IOException {
-        String content = "<img src=\"http://b\"><Section style=\"background:url(http://admin.wpub2018.tjyun.com:9000/eimage/pic//1.jpg) sad sad <section style=background:url(\"http://gggg\")</section></section>";
+        String content = "<img src=\"http://b\"><Section style=\"background:url(http://) sad sad <section style=background:url(\"http://gggg\")</section></section>";
         String[] strs=content.split("url\\(\"");
         String text="";
         for (String str:strs){
